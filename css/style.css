@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    ;
+    font-style: normal;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* *!------- header ------------*/
+
+
+.header-page {}
+
+.header-nav {}
+
+.logo {}
+
+.header-button {}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-link {}
+
+.btn-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+
+
+/* *!------- section#1 ------------*/
+
+
+.section-one {
+    background: #2E2F42
+}
+
+.section-one-heading {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.section-one-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+    color: #FFFFFF;
+}
+
+/* *!------- ------------*/
+/* *!------- ------------*/
+/* *!------- ------------*/
+/* *!------- ------------*/
