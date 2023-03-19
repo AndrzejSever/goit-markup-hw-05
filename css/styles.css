@@ -29,9 +29,9 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #4D5AE5;
 }
+
 
 .logo-studio {
     color: #2E2F42;
@@ -81,7 +81,7 @@ body {
 
 
 .section-hero {
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
 
@@ -101,13 +101,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     color: #FFFFFF;
 }
 
 .section-hero-btn:hover,
 .section-hero-btn:focus {
-    background: #404BBF; 
+    background-color: #404BBF;
     color: #FFFFFF;
 }
 
@@ -147,11 +147,12 @@ body {
 
 /* *!------- section#4 ------------*/
 .section-four {
-    background: #F4F4FD;
+    background-color: #F4F4FD;
 }
 
-.section-four-list{
-    background: #FFFFFF;
+
+.section-four-list {
+    background-color: #FFFFFF;
 }
 
 
@@ -162,7 +163,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    background: #FFFFFF
+    background-color: #FFFFFF;
 
 }
 
@@ -190,7 +191,7 @@ body {
 
 
 .section-footer {
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
 .logo-studio-footer {
@@ -216,7 +217,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background: #F4F4FD;
+    background-color: #F4F4FD;
     color: #4D5AE5;
 }
 
@@ -224,7 +225,7 @@ body {
 .btn-portfolio:hover,
 .btn-portfolio:focus {
 
-    background: #404BBF;
+    background-color: #404BBF;
     color: #FFFFFF;
 }
 
