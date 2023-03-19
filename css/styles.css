@@ -151,8 +151,8 @@ body {
 }
 
 
-.section-four-list{
-    background: #FFFFFF;
+/* .section-four-list{ */
+    /* background: #FFFFFF; */
 }
 
 
@@ -163,6 +163,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    background: #FFFFFF
 
 }
 
