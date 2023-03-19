@@ -132,7 +132,7 @@ body {
 
 .section-three-head {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -141,16 +141,22 @@ body {
 
 
 /* *!------- section#4 ------------*/
+.section-four{
+    background: #F4F4FD;
+}
 
 
 .section-four-head {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
 
+}
+.section-four-list{
+    background:#FFFFFF;
 }
 
 
