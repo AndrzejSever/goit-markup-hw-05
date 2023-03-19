@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     ;
     font-size: 16px;
-    
     background-color: #FFFFFF;
     color: #434455;
 }
@@ -23,7 +22,11 @@ body {
 
 .logo-header {
     font-family: 'Raleway', sans-serif;
-
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;   
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #2E2F42;
 }
 
@@ -38,7 +41,6 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
 
