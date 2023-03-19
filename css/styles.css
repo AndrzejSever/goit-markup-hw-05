@@ -103,14 +103,14 @@ body {
     cursor: pointer;
     background: #4D5AE5;
     color: #FFFFFF;
-
 }
 
-.section-one-btn:hover,
-.section-one-btn:focus {
-    background: #404BBF;
-    
+.section-hero-btn:hover,
+.section-hero-btn:focus {
+    background: #404BBF; 
+    color: #FFFFFF;
 }
+
 
 /* *!------- section#2 ------------*/
 
