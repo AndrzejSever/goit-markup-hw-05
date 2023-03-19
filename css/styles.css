@@ -151,11 +151,6 @@ body {
 }
 
 
-.section-four-list {
-    background-color: #FFFFFF;
-}
-
-
 .section-four-head {
     font-size: 36px;
     line-height: 1.11;
@@ -166,6 +161,12 @@ body {
     background-color: #FFFFFF;
 
 }
+
+
+.section-four-item{
+    background-color: #FFFFFF;
+}
+
 
 
 .section-four-name {
