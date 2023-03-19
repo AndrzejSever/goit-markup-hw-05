@@ -65,7 +65,7 @@ body {
 
 
 .btn-link {
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -95,11 +95,12 @@ body {
 }
 
 .section-hero-btn {
+    font-family: "Roboto", sans-serif;;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-
     background: #4D5AE5;
     color: #FFFFFF;
 
