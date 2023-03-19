@@ -17,6 +17,10 @@ body {
 }
 
 
+:root{
+
+}
+
 /* *!------- header ------------*/
 
 
@@ -59,7 +63,6 @@ body {
 .btn-link {
     line-height: 1.5px;
     letter-spacing: 0.02em;
-
     color: #434455;
 }
 
@@ -112,7 +115,6 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
 
@@ -120,7 +122,6 @@ body {
 .section-two-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: #434455;
 
 }
@@ -135,7 +136,6 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
     color: #2E2F42;
 }
 
@@ -149,7 +149,6 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
     color: #2E2F42;
 
 }
@@ -162,7 +161,6 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
 
@@ -185,7 +183,6 @@ body {
 
 .logo-footer {
     font-family: 'Raleway', sans-serif;
-
     color: #F4F4FD;
 }
 
@@ -199,17 +196,11 @@ body {
 .section-footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: #E7E9FC;
 }
 
 
 /* *!------- portfolio ------------*/
-
-
-.section-portfolio {}
-
-.btn-portfolio-list {}
 
 
 .btn-portfolio {
@@ -225,27 +216,19 @@ body {
 .btn-portfolio:hover,
 .btn-portfolio:focus {
     background: #404BBF;
-    color: #FFFFFF;
-}
+    color: #FFFFFF;}
 
-
-.portfolio-list {}
-
-
-.portfolio-item {}
 
 .portfolio-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
 
 .portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: #434455;
 }
