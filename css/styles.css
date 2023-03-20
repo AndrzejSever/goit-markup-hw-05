@@ -17,7 +17,7 @@ body {
 }
 
 
-:root {}
+/* :root {} */
 
 /* *!------- header ------------*/
 
@@ -158,7 +158,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    background-color: #FFFFFF;
+ 
 
 }
 
