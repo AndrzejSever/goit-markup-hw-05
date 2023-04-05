@@ -7,11 +7,11 @@ body {
 }
 
 
-section,
+/* section,
 header,
 footer {
     outline: 2px solid red;
-}
+} */
 
 .list {
     list-style: none;
@@ -71,8 +71,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -181,9 +181,7 @@ img {
 .hero-container {
     display: flex;
     flex-direction: column;
-    /* padding-top: 188px;
-    padding-bottom: 188px; */
-}
+} 
 
 
 .section-hero-heading {
@@ -209,8 +207,8 @@ img {
     cursor: pointer;
     background-color: #4D5AE5;
     color: #FFFFFF;
-    /* min-width: 169px;
-    height: 56px; */
+    min-width: 169px;
+    height: 56px;
     border-radius: 4px;
     border: 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -257,6 +255,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-top: 8px;
     margin-bottom: 8px;
 }
 
@@ -373,7 +372,8 @@ img {
     justify-content: center;
     align-items: center;
     padding: 12px;
-    /* gap: 12px; */
+    gap: 12px;
+    fill: #F4F4FD;
 }
 
 
@@ -393,7 +393,7 @@ img {
         line-height: 1.11;        
         text-align: center;
         color: #2E2F42;
-        /* padding-top: 120px; */
+        padding-top: 120px;
         margin-bottom: 72px;
 
 }
@@ -411,29 +411,25 @@ img {
 }
 
 .section-five-link{
-    display: block;  
+    display: block;}  
     
-/* justify-content: center;
-    align-items: center; */
-}
+
 
 .section-five-svg{
     display: block;
     width: 168px;
-        height: 88px;
-        fill: #b91530;
+        height: 88px;       
         border: solid 1px  #8E8F99;
-        border-radius: 4px;
-        fill: #b91530;
+        border-radius: 4px; 
+        fill: #8E8F99;
+        padding: 16px 32px;     
 }
 
-#icon-Logo_one{
-    fill: #b91530;
-}
 
 .section-five-svg:hover,
 .section-five-svg:focus {
-    fill: #404BBF;
+   
+    fill:#404BBF;
 }
 
 /* *!------- footer ------------*/
@@ -491,14 +487,16 @@ display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px;
+    fill: #F4F4FD;
 }
 
 
 
 
 
-.
+
 /* *!------- portfolio ------------*/
+
 
 .section-portfolio {
     padding-top: 96px;
