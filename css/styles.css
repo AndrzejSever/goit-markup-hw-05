@@ -57,6 +57,11 @@ img {
 }
 
 
+:root{    
+    -o-transition: 250ms,cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 /**!------- header ------------*/
 
 
@@ -90,6 +95,8 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
+    transition:  250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -120,6 +127,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    transition:  250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -144,6 +153,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition:  250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -213,6 +224,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 16px 32px;
+    transition:  250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -422,6 +435,8 @@ img {
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
+    transition:  250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -491,6 +506,8 @@ img {
 .icon-item-footer {
     background-color: #4D5AE5;
     border-radius: 50%;
+    transition:  250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-item-footer:hover,
@@ -540,6 +557,8 @@ img {
     color: #4D5AE5;
     height: 48px;
     padding: 12px 24px;
+    transition-duration:  250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -595,8 +614,9 @@ img {
 .portfolio-photo-link:hover,
 .portfolio-photo-link:focus {
     box-shadow: 0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+        0px 2px 1px rgba(46, 47, 66, 0.08);        
 }
+
 
 .overley-wrapper{
     position: relative;
@@ -616,12 +636,15 @@ img {
     letter-spacing: 0.02em;
     transform:translate(0,100%);
     transition:  250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);   
+    overflow: auto;
     
 }
 
 
-.portfolio-item:hover .overley-text{
+.portfolio-photo-link:hover .overley-text,
+.portfolio-photo-link:focus .overley-text
+{
     transform:translate(0,0)
 }
 
