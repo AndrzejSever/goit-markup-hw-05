@@ -64,7 +64,9 @@
           <h1 class="section-hero-heading">
             Effective Solutions for Your Business
           </h1>
-          <button class="section-hero-btn" type="button">Order Service</button>
+          <button class="section-hero-btn" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- section#2 -->
@@ -270,7 +272,7 @@
                   <li class="icon-item">
                     <a class="icon-link" href="">
                       <svg class="icon-svg">
-                        <use                          
+                        <use
                           href="./images/symbol-defs.svg#icon-instagram"
                         ></use>
                       </svg>
@@ -361,8 +363,7 @@
           <h2 class="head-section-five">Customers</h2>
           <ul class="section-five-list link list">
             <li class="section-five-item">
-              <a 
-              class="section-five-link" href="">
+              <a class="section-five-link" href="">
                 <svg class="section-five-svg">
                   <use href="./images/symbol-defs.svg#icon-Logo_six"></use>
                 </svg>
@@ -425,9 +426,7 @@
               <li class="icon-item-footer">
                 <a class="icon-link-footer" href="">
                   <svg class="icon-footer">
-                    <use                     
-                      href="./images/symbol-defs.svg#icon-instagram"
-                    ></use>
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
@@ -457,5 +456,15 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
